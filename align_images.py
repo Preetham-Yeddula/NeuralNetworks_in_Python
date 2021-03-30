@@ -7,7 +7,7 @@ from ffhq_dataset.face_alignment import image_align
 from ffhq_dataset.landmarks_detector import LandmarksDetector
 import multiprocessing
 
-LANDMARKS_MODEL_URL = 'http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2'
+LANDMARKS_MODEL_URL = 'https://drive.google.com/u/0/uc?id=1II3w8UlEVa9GCW13yp0_ghVfonNRHCEQ&export=download'
 
 
 def unpack_bz2(src_path):
